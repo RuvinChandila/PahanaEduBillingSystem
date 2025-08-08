@@ -1,0 +1,58 @@
+/* Container for bill creation and form pages */
+.bill-form-container {
+    background-color: #fff;
+    padding: 2.5rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+/* Specific styling for cards within the bill form */
+.bill-card {
+    border: 1px solid #e5e7eb;
+    border-radius: 0.75rem;
+    box-shadow: none;
+}
+
+.bill-card .card-header {
+    background-color: #f9fafb;
+    font-weight: 600;
+    color: #4b5563;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+/* Styling for the bill items table */
+#billItemsTable th, #billItemsTable td {
+    padding: 1rem 1.25rem;
+    vertical-align: middle;
+}
+
+#billItemsTable tfoot th {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+/* Styling for the invoice view */
+.invoice-card {
+    background-color: #fff;
+    border-radius: 0.75rem;
+    border: 1px solid #dee2e6;
+    box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);
+    padding: 1rem;
+}
+
+/* Styling for the success page */
+.success-container {
+    max-width: 56rem;
+    margin: 2rem auto;
+    background-color: #fff;
+    padding: 3rem;
+    border-radius: 1rem;
+    box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.success-icon {
+    color: #198754; /* Bootstrap success green */
+    font-size: 5rem;
+    margin-bottom: 1.5rem;
+}
