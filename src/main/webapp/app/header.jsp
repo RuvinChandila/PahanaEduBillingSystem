@@ -19,7 +19,7 @@
 
   <style>
     body {
-      background-color: #f8f9fa;
+      background-color: rgb(220, 220, 220);
     }
     .sidebar {
       position: fixed;
@@ -29,6 +29,7 @@
       z-index: 100;
       padding: 48px 0 0;
       box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+      width: 220px;
     }
     .sidebar-sticky {
       position: relative;
@@ -78,7 +79,7 @@
         <ul class="nav flex-column">
           <li class="nav-item"><a class="nav-link" href="${pageContext.request.contextPath}/app/dashboard.jsp"><i class="bi bi-house-door"></i> Dashboard</a></li>
           <li class="nav-item"><a class="nav-link" href="${pageContext.request.contextPath}/app/customers"><i class="bi bi-people"></i> Customers</a></li>
-          <li class="nav-item"><a class="nav-link" href="${pageContext.request.contextPath}/app/items"><i class="bi bi-book"></i> Manage Items</a></li>
+          <li class="nav-item"><a class="nav-link" href="${pageContext.request.contextPath}/app/items"><i class="bi bi-book"></i> Items</a></li>
           <li class="nav-item"><a class="nav-link" href="${pageContext.request.contextPath}/app/bill?action=new"><i class="bi bi-receipt"></i> Create Bill</a></li>
           <li class="nav-item"><a class="nav-link" href="${pageContext.request.contextPath}/app/help.jsp"><i class="bi bi-question-circle"></i> Help</a></li>
         </ul>

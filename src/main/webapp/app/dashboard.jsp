@@ -3,18 +3,17 @@
 </jsp:include>
 
 <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-    <h1 class="h2">Dashboard</h1>
+    <h1 class="h2"><b>Dashboard</b></h1>
 </div>
 <p>Welcome, <strong>${sessionScope.loggedInUser.fullName}</strong>!</p>
-<p> This is the central management system for the Pahana Edu Bookshop. From here you can manage customer accounts, handle inventory, and generate bills.</p>
 
 <div class="row">
     <div class="col-md-4 mb-4">
         <div class="card h-100">
             <div class="card-body">
                 <h5 class="card-title"><i class="bi bi-people-fill"></i> Customer Management</h5>
-                <p class="card-text">View, add, or edit customer accounts.</p>
-                <a href="${pageContext.request.contextPath}/app/customers" class="btn btn-primary">Go to Customers</a>
+                <p class="card-text">View, add or edit customer accounts.</p>
+                <a href="${pageContext.request.contextPath}/app/customers" class="btn btn-primary">Customers</a>
             </div>
         </div>
     </div>
@@ -22,8 +21,8 @@
         <div class="card h-100">
             <div class="card-body">
                 <h5 class="card-title"><i class="bi bi-book-half"></i> Inventory Control</h5>
-                <p class="card-text">Manage book and item inventory.</p>
-                <a href="${pageContext.request.contextPath}/app/items" class="btn btn-primary">Manage Items</a>
+                <p class="card-text">View, add or edit items.</p>
+                <a href="${pageContext.request.contextPath}/app/items" class="btn btn-primary">Items</a>
             </div>
         </div>
     </div>
@@ -32,7 +31,7 @@
             <div class="card-body">
                 <h5 class="card-title"><i class="bi bi-receipt-cutoff"></i> Billing</h5>
                 <p class="card-text">Create new bills for customer purchases.</p>
-                <a href="${pageContext.request.contextPath}/app/bill?action=new" class="btn btn-primary">Create a Bill</a>
+                <a href="${pageContext.request.contextPath}/app/bill?action=new" class="btn btn-primary">Create Bill</a>
             </div>
         </div>
     </div>
@@ -55,7 +54,7 @@
 <script>
     // Sample data for the chart
     const salesData = {
-        labels: ['January', 'February', 'March', 'April', 'May', 'June'],
+        labels: ['March', 'April', 'May', 'June', 'July' , 'August'],
         datasets: [{
             label: 'Sales',
             data: [1200, 1900, 3000, 5000, 2300, 3200],

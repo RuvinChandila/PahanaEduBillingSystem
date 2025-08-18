@@ -55,7 +55,7 @@
       </div>
     </div>
     <div class="mt-4 d-grid">
-      <button type="submit" class="btn btn-primary btn-lg">Finalize and Create Bill</button>
+      <button type="submit" class="btn btn-primary btn-lg">Create Bill</button>
     </div>
   </form>
 </div>

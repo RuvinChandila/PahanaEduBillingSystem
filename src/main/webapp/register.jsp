@@ -9,24 +9,23 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
   <style>
     body {
-      background-color: #f0f2f5;
+      background-color: rgb(220, 220, 220);
     }
     .register-container {
       min-height: 100vh;
       display: flex;
       align-items: center;
       justify-content: center;
-      padding: 2rem 0;
     }
     .register-card {
-      max-width: 500px;
+      max-width: 450px;
       width: 100%;
       border: none;
       border-radius: 1rem;
       box-shadow: 0 4px 20px rgba(0,0,0,0.1);
     }
     .register-header {
-      background-color: #198754; /* A green color for registration */
+      background-color: #0d6efd;
       color: white;
       border-top-left-radius: 1rem;
       border-top-right-radius: 1rem;

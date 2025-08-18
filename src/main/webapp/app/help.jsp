@@ -9,22 +9,6 @@
     </div>
 
     <div class="help-topic">
-        <div class="help-topic-icon"><i class="bi bi-box-arrow-in-right"></i></div>
-        <div class="help-topic-content">
-            <h5>Register</h5>
-            <p>To register, simply fill in your full name choose a username and password and click the "Register" button.</p>
-        </div>
-    </div>
-
-    <div class="help-topic">
-        <div class="help-topic-icon"><i class="bi bi-box-arrow-in-right"></i></div>
-        <div class="help-topic-content">
-            <h5>Login</h5>
-            <p>Use the username and password to access the system.</p>
-        </div>
-    </div>
-
-    <div class="help-topic">
         <div class="help-topic-icon"><i class="bi bi-house-door-fill"></i></div>
         <div class="help-topic-content">
             <h5>Dashboard</h5>
@@ -36,7 +20,7 @@
         <div class="help-topic-icon"><i class="bi bi-people-fill"></i></div>
         <div class="help-topic-content">
             <h5>Manage Customers</h5>
-            <p>Click on the "Customers" to view, add, edit, or delete customer records.</p>
+            <p>Click on the "Customers" to view, add, edit or delete customer records.</p>
         </div>
     </div>
 
@@ -44,7 +28,7 @@
         <div class="help-topic-icon"><i class="bi bi-book-fill"></i></div>
         <div class="help-topic-content">
             <h5>Manage Items</h5>
-            <p>Click on the "Manage Items" to handle the bookshop's inventory of books and other items.</p>
+            <p>Click on the "Items" to view, add, edit or delete items.</p>
         </div>
     </div>
 
@@ -53,6 +37,14 @@
         <div class="help-topic-content">
             <h5>Create Bill</h5>
             <p>Click on the "Create Bill" to generate bills for customers based on the items they have purchased.</p>
+        </div>
+    </div>
+
+    <div class="help-topic">
+        <div class="help-topic-icon"><i class="bi bi-printer-fill"></i></div>
+        <div class="help-topic-content">
+            <h5>Print Bill</h5>
+            <p>After creating a bill, you can use the "Print Bill" option to generate a printable copy of the invoice for the customer.</p>
         </div>
     </div>
 
