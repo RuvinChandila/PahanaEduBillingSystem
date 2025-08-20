@@ -1,7 +1,7 @@
 # 📚 Pahana Edu Billing System 
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=coffeescript&logoColor=white" alt="Java"/>
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=coffeescript&logoColor=lightblue" alt="Java"/>
   <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" />
   <img src="https://img.shields.io/badge/Apache%20Tomcat-F8DC75?style=for-the-badge&logo=apache-tomcat&logoColor=black" alt="Tomcat" />
   <img src="https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=for-the-badge&logo=intellijidea&logoColor=white" alt="IntelliJ IDEA" /></div>
@@ -12,7 +12,7 @@
 
 **Pahana Edu Billing System** is a full-featured enterprise application designed specifically for educational bookshops and retail businesses. The system provides complete billing functionality, customer management, inventory control and business analytics through a modern, responsive web interface.
 
-## ✨ Key Features
+## Key Features
 
 ### 🔐 Authentication & Security
 - **Secure User Registration & Login** with BCrypt password hashing
@@ -59,7 +59,8 @@
 - **Database: MySQL**
 
 
-## 📋 System Requirements
+## 🚀 Installation Guide
+
 
 ### Development Environment
 - **OpenJDK 24 or compatible version**
@@ -67,9 +68,6 @@
 - **MySQL Server**
 - **IDE**: IntelliJ IDEA (Ultimate Edition)
 - **Build Tool**: Maven 
-
-
-## 🚀 Installation Guide
 
 
 ## 🗄️ Database Schema
@@ -155,11 +153,6 @@ CREATE TABLE IF NOT EXISTS `bill_items` (
     ON DELETE RESTRICT ON UPDATE CASCADE
 ) ENGINE = InnoDB;
 
--- Initial Data Insertion
-
-INSERT INTO `users` (`username`, `password_hash`, `full_name`)
-VALUES ('admin', '8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92', 'Administrator');
-
 -- Stored Procedures
 
 DELIMITER $$
@@ -234,8 +227,8 @@ First, we need to tell IntelliJ about your JDK and how to package the applicatio
 1.  Open **Project Structure** by navigating to `File > Project Structure` or using the shortcut `Ctrl+Alt+Shift+S`.
 2.  **Project Settings > Project**:
    * Set the **Project SDK** to your installed `OpenJDK 24`.
-3.  **Platform Settings > Artifacts**:
-   * If an artifact doesn't exist, create one by clicking `+` > `Web Application: Exploded` > `From Modules...`.
+3.  **Project Settings > Artifacts**:
+   * `If an artifact doesn't exist`, create one by clicking `+` > `Web Application: Exploded` > `From Modules...`.
    * Select the main project module (e.g., `PahanaEduBillingSystem`).
    * Ensure the **Output directory** is set to a valid location, like `.../target/PahanaEduBillingSystem-1.0-SNAPSHOT`.
 
