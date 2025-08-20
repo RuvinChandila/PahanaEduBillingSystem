@@ -68,45 +68,9 @@
 - **IDE**: IntelliJ IDEA (Ultimate Edition)
 - **Build Tool**: Maven 
 
-### Runtime Environment
-- **Memory**: Minimum 2GB RAM
-- **Storage**: 100MB+ free disk space
-- **Network**: HTTP/HTTPS connectivity
-- **Browser**: Chrome 90+, Firefox 88+, Safari 14+, Edge 90+
 
 ## 🚀 Installation Guide
 
-### Step 1: Database Setup
-
-1. **Start MySQL Server** and connect as root:
-```bash
-mysql -u root -p
-```
-
-2. **Execute the database script**:
-```sql
-source /path/to/PahanaEduBillingSystem_Database.sql
-```
-
-3. **Verify database creation**:
-```sql
-USE pahana_edu_db;
-SHOW TABLES;
-```
-
-### Step 2: Configure Database Connection
-
-Update `src/main/java/com/pahanasolutions/PahanaEdu/db/DatabaseConnection.java`:
-
-```java
-public class DatabaseConnection {
-    private static final String DB_URL = "jdbc:mysql://localhost:3306/pahana_edu_db?useSSL=false&serverTimezone=UTC";
-    private static final String DB_USER = "root";
-    private static final String DB_PASSWORD = "123456";
-    
-    // Rest of the configuration...
-}
-```
 
 ## 🗄️ Database Schema
 
@@ -244,6 +208,20 @@ DELIMITER ;
 -- End of Script
 ```
 
+### Configure Database Connection
+
+Update `src/main/java/com/pahanasolutions/PahanaEdu/db/DatabaseConnection.java`:
+
+```java
+public class DatabaseConnection {
+    private static final String DB_URL = "jdbc:mysql://localhost:3306/pahana_edu_db?useSSL=false&serverTimezone=UTC";
+    private static final String DB_USER = "root";
+    private static final String DB_PASSWORD = "123456";
+    
+    // Rest of the configuration...
+}
+```
+
 
 ## ⚙️ Configuration Steps
 
@@ -337,7 +315,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 ```
 MIT License
 
-Copyright (c) 2024 Pahana Solutions
+Copyright (c) 2025 Pahana Solutions
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
